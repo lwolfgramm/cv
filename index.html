@@ -1,108 +1,91 @@
-
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>🌺 Lindsay's Personal Site</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LindsayCV</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon1.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td><img src="/assets/lindsayImage-modified.png" alt="lindsay profile picture"></td>
-            <td>
-                <h1>Lindsay Wolfgramm</h1>
-                <p><em>Software Engineer</em></p>
-                <p>I am a Full Stack Web Developer. I ❤️ coffee and learning.</p>
-            </td>
-        </tr>
-    </table>
 
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1>I'm Lindsay.</h1>
+        <h2>a <span class="pro">pro</span>grammer.</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        <img class="mtn-img" src="images/mountain.png" alt="mountain-img">
+    </div>
+
+    <div class="middle-container">
+        <div class="profile">
+            <img id="Lindsay-img" src="images/lindsayImage-modified.png" alt="Lindsay-img">
+            <h2>Hello.</h2>
+            <p class="intro">I am a Full Stack Web Developer.<br> I ❤️ coffee and K-dramas.</p>
+        </div>
+
+        <hr>
+
+        <div class="skills">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+                <iframe src="https://giphy.com/embed/H7AmqyARFEc7S1Smtl" frameBorder="0"
+                    class="fullstack-skill-img"></iframe>
+                <h3>Full Stack Development</h3>
+                <p>Worked in integrated development enviorments to modify, compile, run, and debug.</p>
+            </div>
+
+            <div class="skill-row">
+                <img class="agile-skill-img" src="images/agile.png" alt="agile-dev-img">
+                <h3>Agile Software Development</h3>
+                <p>Front-end and back-end web development, ETL & aggregation of data.
+                </p>
+            </div>
+
+            <div class="skill-row">
+                <img class="doc-skill-img" src="images/research.png" alt="research-img">
+                <h3>Documentation</h3>
+                <p>Evaluation & reviewal of work policies, documentation of investigative research.</p>
+            </div>
+
+            <div class="skill-row">
+                <img class="process-skill-img" src="images/innovation.png" alt="process-improvement-img">
+                <h3>Process Improvement</h3>
+                <p>Team work and conflict resolution, communication of solutions for process improvement.</p>
+            </div>
+
+            <div class="skill-row">
+                <iframe src="https://giphy.com/embed/Yt99KOOJywG3blvKwc" frameBorder="0" class="tetris-skill-img"
+                    alt="tetris-img"></iframe>
+                <h3>Stay Calm & Tetris</h3>
+                <p>But my best skill is going to Tetris to think through my blockers.</p>
+            </div>
+
+        </div>
+    </div>
+    </div>
     <hr>
-    <h3>Education</h3>
-    <ul>
-        <li><a href="https://www.slcc.edu/">Salt Lake Community College | 2022 Computer Science | Information
-                Techonology</a></li>
-    </ul>
-    <h3>Work Experience</h3>
-    <table border="1">
-        <th>
-            <tr>
-                <th>Dates</th>
-                <th>Work</th>
-            </tr>
-
-        </th>
-        <tbody>
-
-        </tbody>
-        <tfoot>
-
-        </tfoot>
-        <tr>
-            <td>Aug 2022 - Present</td>
-            <td>Software Engineer Intern at Artemis Health</td>
-        </tr>
-        <tr>
-            <td>Jan 2022 - Present</td>
-            <td>Onsite Manager & Teaching Assistant at Tech-Moms</td>
-        </tr>
-    </table>
-    <h3>Skills</h3>
-
-    <table>
-        <tr>
-            <td>
-                <table>
-                    <tr>
-                        <td>Agile Software Development</td>
-                        <td>🟣🟣🟣</td>
-                    </tr>
-                    <tr>
-                        <td>Front-End Web Development</td>
-                        <td>🟣🟣🟣🟣</td>
-                    </tr>
-                    <tr>
-                        <td>Integraded Developmnet Enviorments to modify, compile, run, and debug</td>
-                        <td>🟣🟣🟣</td>
-                    </tr>
-                    <tr>
-                        <td>ETL & aggregation of data</td>
-                        <td>🟣🟣🟣</td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <table>
-                    <tr>
-                        <td>Agile Software Development</td>
-                        <td>🟣🟣🟣</td>
-                    </tr>
-                    <tr>
-                        <td>Front-End Web Development</td>
-                        <td>🟣🟣🟣🟣</td>
-                    </tr>
-                    <tr>
-                        <td>Integraded Developmnet Enviorments to modify, compile, run, and debug</td>
-                        <td>🟣🟣🟣</td>
-                    </tr>
-                    <tr>
-                        <td>ETL & aggregation of data</td>
-                        <td>🟣🟣🟣</td>
-                    </tr>
-                </table>
-
-            </td>
-        </tr>
-    </table>
+    <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you love coffee as much as I do.</h3>
+        <p class="contact-message">Love coffee as much as I do?</p>
+        <p>Let's grab some and chat!</p>
+        <a class="btn" href="mailto:lsaywolfgraqmm@gmail.com">CONTACT ME</a>
+    </div>
+    </div>
 
 
-
-
-
-    <hr>
-    <a href="hobbies.html">My Hobbies</a>
-    <a href="contact.html">Contact Me</a>
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/lindsay-wolfgramm/">LinkedIn</a>
+        <p class="copyright">© 2023 Lindsay Wolfgramm.</p>
+    </div>
 
 </body>
 
