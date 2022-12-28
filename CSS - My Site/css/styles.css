@@ -28,33 +28,33 @@ h3 {
 }
 
 a {
-    color: #F1EFDC;
+    color: #30e3cb;
     font-family: 'Montserrat', sans-serif;
     margin: 10px 20px;
     text-decoration: none;
 }
 
 a:hover {
-    color: #D36B00;
+    color: #11999E;
 }
 
-div {
+/* div {
     background-color: #F1EFDC;
-}
+} */
 
 p {
     line-height: 2;
 }
 
 hr {
-    border: dotted #D36B00 6px;
+    border: dotted #11999E 6px;
     border-bottom: none;
     width: 3%;
     margin: 100px auto;
 }
 
 .copyright {
-    color: #F1EFDC;
+    color: #30e3cb;
     font-size: 0.75rem;
     padding: 20px 0;
 }
@@ -121,8 +121,9 @@ hr {
 }
 
 .bottom-container {
-    background-color: #E6D2AA;
-    padding: 50px 0 20px;
+    background-color: #F1EFDC;
+    padding: 20px 0 10px;
+    margin-top: 30px;
 }
 
 .top-cloud {
